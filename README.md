@@ -59,9 +59,9 @@ nRF24L01 registers (i.e. tx/rx addresses) can be reprogrammed pressing programmi
 
 ## How To
 
-⋅⋅⋅ Make the PCB and solde it (I have a protoboard version too);
-⋅⋅⋅ Obtain an AVR programmer (usbasp or Arduino as ISP)
-⋅⋅⋅ Compile the code:
+1. Make the PCB and solde it (I have a protoboard version too);
+2. Obtain an AVR programmer (usbasp or Arduino as ISP)
+3. Compile the code:
  * install `gcc-avr` `avr-libc` `avrdude`;
  * move in code directory;
  * type `make`;
